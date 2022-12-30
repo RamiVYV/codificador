@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./asset/img/logica-de-programacion-juegos-animaciones.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <div class="main__container">
+        <header class="main__title">
+                    <img src="./asset/img/logo_oracleAlura-es.1657102612.svg" alt="oracle+alura_logo" class="img__logo">
+        </header>
+        <main class="encriptador">
+            <div class="encriptador__input">
+                <textarea name="input" id="textInput" cols="30" rows="10" class="encriptador__input--textarea" maxlength="200" placeholder="Introducir texto a encriptar">
+                </textarea>
+            </div>
+            <div class="encriptador__button">
+                <button class="encriptador__button--submit" onclick="encriptar()">Encriptar</button>
+                <button class="encriptador__button--reset" onclick="desencriptar()">Desencriptar</button>
+            </div>
+            <div class="result">
+                <textarea name="" id="resultText" cols="30" rows="10" class="result--text" maxlength="200" placeholder="Introducir texto a desencriptar" >
+                    
+                </textarea>
+                <p id="prueba"></p>
+                <button class="result--copy" onclick="copiar()">Copiar</button>
+                
+            </div>
+        </main>
+</div>
+<script src="./asset/script/script.js"></script>
+</body>
+</html>
